@@ -26,6 +26,9 @@
 	var result_2 = reg2.test(str);	//true
 	document.write(result_2);
 	
+	var matchedStr = reg2.exec(str);
+	document.write(matchedStr);
+	
 /*
 	자주 쓰는 정규식
 ★ 숫자만 가능 : [ 0 ~ 9 ] 주의 : 띄어쓰기 불가능
