@@ -1,3 +1,9 @@
+<%--
+	설명 : 정규 표현 객체 : 입력요소에 데이터를 규칙에 맞게 작성 했는지 판단해서 알려주는 객체
+	작성자: 이정문
+	작성일 : 2018-01-09
+--%>
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
