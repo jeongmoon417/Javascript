@@ -1,2 +1,2 @@
 # Javascript
-자바스크립트
+Javascript/WebContent/Basic/ : jsp,html 파일
