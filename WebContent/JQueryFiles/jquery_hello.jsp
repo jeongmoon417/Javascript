@@ -18,6 +18,13 @@
 	        $(this).hide();
 	        alert("글자가 사라집니다");				//alert 사용 가능
 	    });
+	    
+	    $("#showme").click(function(){
+			 //$("p:hidden").css("display","block");		//아래와 같은 내용: p중 숨겨진 객체를 선택후 보이게 함
+			 $("p:hidden").show();
+			 
+		});
+	    
 	});
 	
 	$(function(){								//2. 이부분도 body로딩 후 실행 (실행 가능)
@@ -36,10 +43,12 @@
 <p>Hello World</p>
 <p>Click me away!</p>
 <p>Click me too!</p>
+<p>new version</p>
 <ol>
 	<li>첫번째 li</li>
 	<li>두번째 li</li>
 	<li>세번째 li</li>
 </ol>
+<button id="showme">보이기</button>
 </body>
 </html>
