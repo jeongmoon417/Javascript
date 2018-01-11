@@ -13,7 +13,7 @@
 		var btn2 = $("#btn2");
 		var colName = $("#colName");
 		
-		btn1.click(function(){		//
+		btn1.click(function(){		//버튼 클릭시 div 색 변환
 			changeColor();
 		})
 		btn1.hover(function(){	//마우스를 올렸을때
@@ -29,7 +29,7 @@
 				changeColor();
 			}
 		});
-		function changeColor (){			//함수 : 사각형의 색 바꿈
+		function changeColor (){			//함수 : div 색 변환
 			var col = colName.val();
 			$("#square").css("backgroundColor", col);
 		}
