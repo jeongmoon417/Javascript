@@ -1,7 +1,9 @@
 <%--
 	map매서드 : 배열의 데이터를 변환시켜 다시 새로운 배열 객체로 만듦, (지정한 값으로 새로운 배열을 만듦)
 	
-	배열객체.map(function(){...})
+	배열객체.map(function(i,k){...})
+		i: array 요소
+		k: index
 --%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>

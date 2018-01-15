@@ -1,5 +1,8 @@
 <%--
 	설명: 하위요소 선택자
+		$(a b): a의 하위요소 b선택
+		$(a +b): a의 동생요소 b (같은 레벨의 요소)
+		$(a:first) : a요소의 하위 요소 중 첫번째 요소
  --%>
 
 <%@ page language="java" contentType="text/html; charset=UTF-8"

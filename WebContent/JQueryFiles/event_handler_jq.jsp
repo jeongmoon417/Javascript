@@ -1,3 +1,11 @@
+<%--
+	jquery를 이용한 이벤트 처리하기
+	
+	.click(fuction(){}) : 클릭시에 이벤트
+	.hover(function(){}, function(){}) : 마우스를 올렸을때, 마우스를 벗어났을때 이벤트
+	.keydown(function(key){}) : 키를 눌렀을 때의 이벤트 (key: 이벤트 정보)
+ --%>
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
