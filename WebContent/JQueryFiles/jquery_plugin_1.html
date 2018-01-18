@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jqeury 플러그인</title>
+<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.9.2.custom.min.js"></script>
+<style type="text/css">
+*{margin:0; padding:0;}
+h1{width:300px; height:350px; background-color:yellow;}
+h1:hover{cursor:move;}
+</style>
+<!-- link tag : defines a link between a document and an external resource, used to link to external style sheet -->
+<!-- link tag : 문서와 외부 리소스 연결 정의, 외부 스타일 시트 연결시 사용 -->
+<!-- 스타일 시트 : CSS와 같은 개념으로, 웹페이지의 스타일을 지정함 -->
+<link rel="stylesheet" type="text/css" href="css/ui-darkness/jquery-ui-1.9.2.custom.min.css" />
+<script type="text/javascript">
+	$(function(){
+		$("#d1").draggable({
+			helper: "clone"
+		});	//h1태그에 드래그 기능을 적용합니다
+		
+		$("#d2").draggable();
+	});
+</script>
+</head>
+<body>
+	<h1 id="d1"> 팝업 창5</h1>
+	<h1 id="d2"> 팝업 창7</h1>
+</body>
+</html>
