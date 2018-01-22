@@ -35,7 +35,7 @@
 		/*아이템(사진): 드래그 기능 추가*/
 		$("li", gallery).draggable({
 			cancel: "a.ui-icon",	//클릭해도 드래그 시작하지 않음???
-			revert: "invalid",		//드롭 하지 않으면, 아이템은 처음 점으로 돌아감
+			revert: "invalid",		//드롭 하지 않으면, 아이템은 처음 점으로 돌아감 (invalid한 곳으로 가면)
 			containment: "document",
 			helper: "clone",		// Allows for a helper element to be used for dragging display.
 			cursor: "move"
@@ -58,7 +58,7 @@
 			accept: "#trash li",
 			activeClass: "ui-state-highlight",
 			classes: {
-				"ui-droppable-active" : "ui-state-highlight"
+				"ui-droppable-active" : "ui-state-highlight"		//작동 하지 않음. 위의 코드로 작성
 			},
 			drop: function(event, ui) {
 				recycleImage(ui.draggable);
