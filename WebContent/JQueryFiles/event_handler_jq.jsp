@@ -4,7 +4,9 @@
 	.click(fuction(){}) : 클릭시에 이벤트
 	.hover(function(){}, function(){}) : 마우스를 올렸을때, 마우스를 벗어났을때 이벤트
 	.keydown(function(key){}) : 키를 눌렀을 때의 이벤트 (key: 이벤트 정보)
- --%>
+	
+	.click (return false)의 의미 : 기존의 기능이 없어진다. 예) <a>의 경우 href로 이동하지만, return false 일경우 무시
+--%>
 
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
@@ -48,6 +50,8 @@
 	<div id="square" style="background-color: red; width: 200x; height: 200px;"></div><br/>
 	<input id="colName" type="text" value="red">
 	<button id="btn1">버튼1</button><br/>
-	<div id="desc">색을 입력합니다.</div></div>
+	<div id="desc">색을 입력합니다.</div><br/>
+	<a href="http://www.naver.com" onclick="return confirm('Are you sure you want to do that?');">Click me!</a>
+	
 </body>
 </html>
