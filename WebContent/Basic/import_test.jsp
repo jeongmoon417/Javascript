@@ -1,7 +1,9 @@
 <%--
-	외부 자바스크립트 사용하기
-	작성자: 이정문
+	작성자: 이정문 (jeongmoon.lee@cj.net)
 	작성일 : 2018-01-09
+	내용 : 외부 자바스크립트 사용하기 <script src="...">
+	
+			자바 스크립트 선언, 내용 없음
 --%>
 
 <%@ page language="java" contentType="text/html; charset=UTF-8"
@@ -14,6 +16,5 @@
 <script type="text/javascript" src="import_js.js"></script>
 </head>
 <body>
-
 </body>
 </html>
